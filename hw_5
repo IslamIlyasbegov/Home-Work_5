@@ -1,0 +1,126 @@
+// Напишите программу, которая на вход принимает два числа и выдаёт, какое число большее, а какое меньшее.
+
+// a = 5; b = 7 -> max = 7
+// a = 2 b = 10 -> max = 10
+// a = -9 b = -3 -> max = -3
+
+static void Main(string[] args)
+
+	{ 
+		Console.WriteLine("Введи число");
+		int a, b ;  // подставить значение
+		
+		Console.WriteLine("Введи первое число");
+		a = Convert.ToInt32(Console.Read));
+		
+		Console.WriteLine("Введи второе число");
+		b = Convert.ToInt32(Console.Read));
+		
+		{ 	bool Chto0 = a < b
+			bool Chto1 = a == b
+			bool Chto2 = a > b
+		}
+		
+		if (Chto0)
+			
+            {
+                Console.WriteLine($"Число {a} больше чем {b}");
+            }
+            
+			else if (Chto1)
+				
+            {
+                Console.WriteLine($"Числа {a} и {b} равны");
+            }
+            
+			else
+				
+            {
+                Console.WriteLine($"Число {b} больше чем {a}");
+            }
+	
+	}	
+  
+  
+// Напишите программу, которая принимает на вход три числа и выдаёт максимальное из этих чисел.
+
+// 2, 3, 7 -> 7
+// 44 5 78 -> 78
+// 22 3 9 -> 22
+
+
+static void Main(string[] args)
+	
+	{
+		var num = Console.ReadLine().Split().Select(int.Parse).ToArray();
+		Console.WriteLine(num.Max());
+	}	
+
+// еще изи вариант 
+
+  max=a;
+  
+ {
+	{
+	
+		if (b>max)max=b;
+		if (c>max)max=c;
+	
+	}
+		Console.WriteLine(num.Max());
+
+ }
+
+
+
+
+
+
+
+// Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
+
+// 4 -> да
+// -3 -> нет
+// 7 -> нет
+
+
+class Program
+	
+	{
+		static void Main(string[] args)
+		{
+			
+			int num = Convert.ToInt32(Console.ReadLine()); 
+			int res = 4;  // тут подставить значения
+
+			while(res<=num)
+		}
+	
+			{
+				Console.WriteLine(res);
+				res++ 
+			}
+
+	}
+
+
+
+// Напишите программу, которая на вход принимает число (N), а на выходе показывает все чётные числа от 1 до N.
+
+// 5 -> 2, 4
+// 8 -> 2, 4, 6, 8
+
+  {		int k
+		string s 
+	
+			s = Console.ReadLine();
+			for (int i =0; i<s.lenght; i++)
+		
+				{
+					if (s[i]%2==0)
+				}	
+		
+					Console.Write(s[i]);
+					k++
+					
+  }				
